@@ -1,0 +1,86 @@
+body
+{
+    background-image: url('fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+h1
+{
+    font-family: serif;
+    text-align: center;
+    color: black;
+    margin: 10px;
+
+}
+div
+{
+    background-color: rgb(230, 187, 132);
+    text-align: center;
+    display:  flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.linea {
+    margin-left: auto;
+    margin-right: auto;
+    height: 4px;
+    background-color: brown;
+    width: 80%;
+  
+}
+img
+{
+   height: 50px; 
+   width: 50px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#menu {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  #menu td {
+    border: 1px ;
+    padding: 8px;
+    background-color: rgb(230, 187, 132);
+    
+  }
+ 
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    
+}  
+a
+{
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    margin: 10px;
+    color: yellow; 
+    text-decoration: underline;   
+    transition: color 0.3s ease;  
+}
+a:hover {
+    color: rgb(255, 0, 64);
+    
+}
+  
