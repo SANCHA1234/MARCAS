@@ -1,0 +1,132 @@
+.flex-container
+{ 
+    width: 400px;
+    height: 560px;
+    padding: 20px;
+    text-align: center;
+    border: 20px solid;
+    border-radius: 10px;
+    border-color: rgb(8, 8, 61);
+    background-image: url('83hVUq.jpg');
+}
+.divnombrecarta
+{
+    background-color: white;
+    border-radius: 20px;
+    border-color: green;
+    border: 10px solid;
+    font-family: Palace Script 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+    height: 50px;    
+    padding: 5px;
+    margin: auto;
+}
+.divEstrellas
+{
+    width: 25px;
+    height: 300px;
+    border: 5px solid;
+    color: rgb(208, 255, 0);
+    size: 100px;
+    border-radius: 20px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    justify-content: conte ;
+    position: absolute;
+    margin-top: 20px;
+    size-adjust: content;
+    background-color: rgb(0, 0, 0);
+}
+.p1{
+    font-size: 35px ;
+    margin-right: -6px;
+    align-items: right;
+}
+body {
+    font-family: sans-serif;
+    background-image: url('paisaje-de-ciudad-futurista-artwork_2560x1440_4678.png');
+    background-size: cover;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 10px;
+}
+.nombres
+{
+    color: rgb(23, 19, 240);
+    justify-content: center;
+    border-radius: 25px;
+    display: flex;
+}
+.divimagen
+{
+    width: 250px;
+    height: 200px;
+    border: 10px solid;
+    border-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+.divartista
+{
+    width: 25px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    size: 50px;
+    font-family: Harlow Solid Italic;
+    border-radius: 20px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    margin-top: 20px;
+    size-adjust: content;
+    margin-left: 380px;
+    background-color: rgb(0, 0, 0);
+    align-items: right;
+    border: 5px solid;
+}
+.p2{
+    font-size: 20px ;
+    margin-right: 0px;
+    align-items: right;
+}
+.divcualidad
+{
+   border: 10px solid;
+    border-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+.divatributo
+{
+    margin: auto;
+    border-radius: 25px;
+    border: 10px solid;
+    margin-bottom: 20px;
+    height: 60px;
+    background-color: white;
+    font-family: cursive;
+}
+.divreferencia
+{
+    height: 40px;
+    width: 40px;
+    border: 6px solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: -10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
